@@ -1,0 +1,77 @@
+html body {
+  font-size: 14px;
+}
+
+.cf::after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 460px;
+  margin: 0 auto;
+}
+
+.acc__title {
+  text-align: center;
+  font-family: "Ubuntu-light";
+}
+
+.acc__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.acc__item {
+  border: 1px solid;
+  border-radius: 35px;
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.acc__link {
+  position: relative;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.acc__text {
+  font-family: "Fira Sans";
+  margin-left: 20px;
+}
+
+.acc__container {
+  padding: 21px 0;
+  border-radius: 35px;
+}
+
+.acc__text_black {
+  background-color: #696666;
+  color: #fff;
+}
+
+.acc__text_grey {
+  background-color: #e7e7e7;
+  color: #000;
+}
+
+.acc__text_orange {
+  background-color: #ff8663;
+  color: #fff;
+}
+
+.drop {
+display: none;
+}
+
+.active {
+display: block;
+}
+
+.drop__text {
+  margin-left: 20px;
+  z-index: 1;
+}
